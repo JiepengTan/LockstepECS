@@ -9,9 +9,12 @@ LockstepECS  一个基于c# 指针和结构体 的帧同步框架，使用于超
     - PureMode:纯代码形式，可以直接在服务器中运行逻辑，不依赖Unity 
     - Burst Mode: 模式，直接生成适配Unity ECS Burst+job框架代码的代码，进一步提升运行速度
 
+- github 上的是免费版
+
 ## **Reference**
 
 - [帧同步基础库 https://github.com/JiepengTan/LockstepEngine][1]
+- [高性能帧同步ECS框架 https://github.com/JiepengTan/LockstepECS][8]
 - [代码生成DSL https://github.com/JiepengTan/ME][2]
 - [demo: 帧同步版联机版 模拟鲨鱼围捕 2000 条小鱼 https://github.com/JiepengTan/LcokstepECS_Demo_Boid][3]
 - [帧同步教程 https://github.com/JiepengTan/Lockstep-Tutorial][4]
@@ -19,8 +22,24 @@ LockstepECS  一个基于c# 指针和结构体 的帧同步框架，使用于超
 - [数学基础教程 https://www.bilibili.com/video/av67829097][6]
 - [碰撞检测教程 https://www.bilibili.com/video/av68850334][7]
 
-## **TODO**
+- **LockstepECS 建议或bug 群**
+928084598，功能仅限提bug和建议，不闲聊
 
+- **Unity DOTS 技术交流 微信群**
+
+<p align="center"> <img src="https://github.com/JiepengTan/JiepengTan.github.io/blob/master/assets/img/blog/MyVX.png?raw=true" width="256"/></p>
+
+```
+为了过滤伸手党，不浪费群里人时间，3年工作经验以上再加（当然如果你很优秀，请忽略这个限制）
+添加微信请备注 LECS: + 你的github网址
+eg:我个人GitHub 地址为 https://github.com/JiepengTan
+备注应该填写为：LECS:JiepengTan
+
+```
+
+
+## **TODO**
+- 预测回滚 
 - 碰撞检测库
 - 寻路库
 - 序列化库向前兼容
@@ -34,8 +53,8 @@ LockstepECS  一个基于c# 指针和结构体 的帧同步框架，使用于超
 ![Screen Shot 2019-11-13 at 4.49.50 PM.png](https://upload-images.jianshu.io/upload_images/11593954-5dafa8d3640934b2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 - 3. 运行 游戏
-  A  D  控制鲨鱼方向
-  Space  释放技能 
+  A  D  控制方向
+  Space  释放技能 (Boid demo 才有技能)
 
 ### **2.联网模式**
 - 1.打开Game.sln 
@@ -72,9 +91,21 @@ LockstepECS  一个基于c# 指针和结构体 的帧同步框架，使用于超
    这里放置的是MVC 中View 代码（View 层），依赖于Model  层
 - 3. Tools.UnsafeECS.ECSDefine.Game 
    这里放置的是你对游戏中 Entity  Component  System 以及全局状态 State 的定义,必须保证该子dll  是能编译的（不能依赖于Model 或 View 层）
-  
+
+### 2. 环境要求
+- 1.需要安装NetCore2.2以上
+- 2.需要安装Mono
+- 3.GitBash
+
 
 ### 3. Tools.UnsafeECS.ECSDefine 定义详解
+#### 0. 代码生成
+- Windows 用户
+ - 使用gitBash 执行 Client.Unity/DataAndTools/Tools/UpdateAndCodeGen_Win.sh
+- Windows 用户
+ - 使用命令行执行 Client.Unity/DataAndTools/Tools/UpdateAndCodeGen.sh
+ - 或直接双击运行 Client.Unity/DataAndTools/Tools/UpdateAndCodeGen  (注意无后缀)
+
 #### 1. 接口定义
 ```cpp
    // Copyright 2019 谭杰鹏. All Rights Reserved //https://github.com/JiepengTan 
@@ -495,7 +526,7 @@ If macro UNING_UNITY_BURST_JOB was defined
       ...
 ```
 
-By convention, You should not call the  generated method which start with _ ，eg:_DoDestroyEntity
+By convention, You should not call any method which start with **_**，eg: _DoDestroyEntity
 
  [1]: https://github.com/JiepengTan/LockstepEngine
  [2]: https://github.com/JiepengTan/ME
@@ -504,3 +535,4 @@ By convention, You should not call the  generated method which start with _ ，e
  [5]: https://github.com/JiepengTan/FishManShaderTutorial
  [6]: https://www.bilibili.com/video/av67829097
  [7]: https://www.bilibili.com/video/av68850334
+ [8]: https://github.com/JiepengTan/LockstepECS
