@@ -322,7 +322,7 @@ MonoBehaviour:
       startTick: 0
       frames: []
     JumpToTick: 10
-  IsClientMode: 1
+  IsClientMode: 0
   IsVideoMode: 0
   IsRunVideo: 0
   Ip: 127.0.0.1

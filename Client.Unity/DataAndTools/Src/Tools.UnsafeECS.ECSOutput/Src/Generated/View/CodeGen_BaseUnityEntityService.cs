@@ -30,7 +30,7 @@ namespace Lockstep.UnsafeECS.Game {
     using Lockstep.Game;
     using Debug = Lockstep.Logging.Debug;
     public abstract unsafe partial class BaseUnityEntityService : BaseService,IEntityService {
-        private static Dictionary<int, Unity.Entities.Entity> _assetId2EntityPrefas =
+        protected static Dictionary<int, Unity.Entities.Entity> _assetId2EntityPrefas =
             new Dictionary<int, Unity.Entities.Entity>();
 
         public static void RegisterUnityEntityPrefabs(List<EntityPrefabInfo> prefabs){
@@ -46,17 +46,18 @@ namespace Lockstep.UnsafeECS.Game {
             Debug.Log("RegisterUnityEntityPrefabs ");
         }
 
-        private Dictionary<int, Unity.Entities.Entity> _id2UnityEntity = new Dictionary<int, Unity.Entities.Entity>();
-        private Dictionary<int, BaseEntityView> _id2EntityView = new Dictionary<int, BaseEntityView>();
+        protected Dictionary<int, Unity.Entities.Entity> _id2UnityEntity = new Dictionary<int, Unity.Entities.Entity>();
+        protected Dictionary<int, BaseEntityView> _id2EntityView = new Dictionary<int, BaseEntityView>();
 
         //private GameObject[] _prefabs;
-        private Unity.Entities.EntityManager _entityManager;
+        protected Unity.Entities.EntityManager _entityManager;
         public static GameViewConfig ViewConfig;
 
         public override void DoAwake(IServiceContainer services){
             ViewConfig = Resources.Load<GameViewConfig>(GameViewConfig.ResPath);
             _entityManager = Unity.Entities.World.Active.GetOrCreateManager<EntityManager>();
         }
+
 
         public void OnEntityCreated(Context f, Lockstep.UnsafeECS.Entity* pEntity){
             if (pEntity == null) {

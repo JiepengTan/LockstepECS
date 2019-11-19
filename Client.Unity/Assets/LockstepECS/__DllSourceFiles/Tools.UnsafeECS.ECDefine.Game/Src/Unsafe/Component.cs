@@ -12,6 +12,7 @@ namespace Lockstep.UnsafeECSDefine {
     public partial class AssetData : IGameComponent {
         public int AssetId;
     }
+    
     public partial class PlayerData : IGameComponent {
         public int Score;
         public int LocalId;
