@@ -9,6 +9,21 @@ LockstepECS  一个基于c# 指针和结构体 的帧同步框架，使用于超
     - PureMode:纯代码形式，可以直接在服务器中运行逻辑，不依赖Unity 
     - Burst Mode: 模式，直接生成适配Unity ECS Burst+job框架代码的代码，进一步提升运行速度
 
+## **Reference**
+
+- [帧同步基础库 https://github.com/JiepengTan/LockstepEngine][1]
+- [代码生成DSL https://github.com/JiepengTan/ME][2]
+- [demo: 帧同步版联机版 模拟鲨鱼围捕 2000 条小鱼 https://github.com/JiepengTan/LcokstepECS_Demo_Boid][3]
+- [帧同步教程 https://github.com/JiepengTan/Lockstep-Tutorial][4]
+- [Shader教程 https://github.com/JiepengTan/FishManShaderTutorial][5]
+- [数学基础教程 https://www.bilibili.com/video/av67829097][6]
+- [碰撞检测教程 https://www.bilibili.com/video/av68850334][7]
+
+## **TODO**
+
+- 碰撞检测库
+- 寻路库
+- 序列化库向前兼容
 
 ## **1.安装运行**
 ### **1.ClientMode**
@@ -481,3 +496,11 @@ If macro UNING_UNITY_BURST_JOB was defined
 ```
 
 By convention, You should not call the  generated method which start with _ ，eg:_DoDestroyEntity
+
+ [1]: https://github.com/JiepengTan/LockstepEngine
+ [2]: https://github.com/JiepengTan/ME
+ [3]: https://github.com/JiepengTan/LcokstepECS_Demo_Boid
+ [4]: https://github.com/JiepengTan/Lockstep-Tutorial
+ [5]: https://github.com/JiepengTan/FishManShaderTutorial
+ [6]: https://www.bilibili.com/video/av67829097
+ [7]: https://www.bilibili.com/video/av68850334
