@@ -100,11 +100,13 @@ eg:我个人GitHub 地址为 https://github.com/JiepengTan
 
 ### 3. Tools.UnsafeECS.ECSDefine 定义详解
 #### 0. 代码生成
-- Windows 用户
- - 使用gitBash 执行 Client.Unity/DataAndTools/Tools/UpdateAndCodeGen_Win.sh
-- Windows 用户
- - 使用命令行执行 Client.Unity/DataAndTools/Tools/UpdateAndCodeGen.sh
- - 或直接双击运行 Client.Unity/DataAndTools/Tools/UpdateAndCodeGen  (注意无后缀)
+
+1. Windows 用户
+    - 使用gitBash 执行 Client.Unity/DataAndTools/Tools/UpdateAndCodeGen_Win.sh
+    
+2. Mac 用户
+    - 使用命令行执行 Client.Unity/DataAndTools/Tools/UpdateAndCodeGen.sh
+    - 或直接双击运行 Client.Unity/DataAndTools/Tools/UpdateAndCodeGen  (注意无后缀)
 
 #### 1. 接口定义
 ```cpp
