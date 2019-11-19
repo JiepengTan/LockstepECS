@@ -18,25 +18,24 @@ LockstepECS  一个基于c# 指针和结构体 的帧同步框架，使用于超
 - [代码生成DSL https://github.com/JiepengTan/ME][2]
 - [demo: 帧同步版联机版 模拟鲨鱼围捕 2000 条小鱼 https://github.com/JiepengTan/LcokstepECS_Demo_Boid][3]
 - [帧同步教程 https://github.com/JiepengTan/Lockstep-Tutorial][4]
-- [Shader教程 https://github.com/JiepengTan/FishManShaderTutorial][5]
-- [数学基础教程 https://www.bilibili.com/video/av67829097][6]
-- [碰撞检测教程 https://www.bilibili.com/video/av68850334][7]
-
 - **LockstepECS 建议或bug 群**
-928084598，功能仅限提bug和建议，不闲聊
+928084598，功能仅限提bug和建议
 
 - **Unity DOTS 技术交流 微信群**
 
 <p align="center"> <img src="https://github.com/JiepengTan/JiepengTan.github.io/blob/master/assets/img/blog/MyVX.png?raw=true" width="256"/></p>
 
 ```
-为了过滤伸手党，不浪费群里人时间，3年工作经验以上再加（当然如果你很优秀，请忽略这个限制）
+为了过滤伸手党，不浪费群里人时间，有ECS使用经验后你再加（能独立用ECS写个小游戏）
 添加微信请备注 LECS: + 你的github网址
 eg:我个人GitHub 地址为 https://github.com/JiepengTan
 备注应该填写为：LECS:JiepengTan
 
 ```
 
+## **视频链接**
+- [环境搭建（Win & Mac）][9]
+- [Boid Demo 运行 ][10]
 
 ## **TODO**
 - 预测回滚 
@@ -538,3 +537,6 @@ By convention, You should not call any method which start with **_**，eg: _DoDe
  [6]: https://www.bilibili.com/video/av67829097
  [7]: https://www.bilibili.com/video/av68850334
  [8]: https://github.com/JiepengTan/LockstepECS
+ [9]: https://www.bilibili.com/video/av76298196
+ [10]: https://www.bilibili.com/video/av76311418
+
