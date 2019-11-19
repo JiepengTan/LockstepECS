@@ -1,0 +1,30 @@
+{
+  "DllNameTag": "Tools.UnsafeECS.ECDefine.Game.dll",
+  "IgnoreDll": "Tools.ECS.ECDefine.Game.dll",
+  "ShellCmd": "",
+  "ShellWorkingDir": "",
+  "MacroDefinePath": "../Config/UnsafeECSGenerator/MacroDefine.json",
+  "SrcFileDir": "../Config/UnsafeECSGenerator/Model/",
+  "DesFileDir": "../Src/Tools.UnsafeECS.ECSOutput/Src/Generated/Model/",
+  "FileExtension": "*.tfbytes",
+  "TypeNameSpaceTag": "Lockstep.UnsafeECSDefine",
+  "IsGenDebugInfo": false,
+  "IsEncryptFile":true,
+  "FileContent": [
+    "\n//#define DONT_USE_GENERATE_CODE                                                                ",
+    "\n                                                                                                ",
+    "\nusing System.Linq;                                                                              ",
+    "\nusing Lockstep.Serialization;                                                                   ",
+    "\nusing System.Runtime.InteropServices;                                                           ",
+    "\nusing System.Runtime.CompilerServices;                                                           ",
+    "\nusing System;                                                                                   ",
+    "\nusing Lockstep.InternalUnsafeECS;                                                              ",
+    "\nusing System.Collections;                                                                       ",
+    "\nusing Lockstep.Math;                                                                            ",
+    "\nusing System.Collections.Generic;                                                               ",
+    "\nusing Lockstep.Logging;                                                                         ",
+    "\nusing Lockstep.Util;                                                                         ",
+    "\n#TYPES_EXTENSIONS                                                                               ",
+    "\n                                                                                         "
+  ]
+}

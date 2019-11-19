@@ -1,0 +1,9 @@
+{
+  "InputDirs": [
+    "../Data/Designer/Excels"
+  ],
+  "OutputDirCsv": "../Config/ExcelParser/Output/Csv",
+  "OutputDirByte":"../Data/Client/ExcelBytes",
+  "OutputDirCode":"../Config/ExcelParser/Output/CodeCS",
+  "TemplatePath": "../Config/ExcelParser/CSTemplate.txt"
+}

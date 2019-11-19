@@ -1,0 +1,21 @@
+{
+    "name": "Game.Model",
+    "references": [
+        "Engine.LockstepEngine",
+        "Common.Model",
+        "Common.UnsafeECS",
+        "Unity.Entities",
+        "Unity.Entities.Hybrid",
+        "Unity.Mathematics",
+        "Unity.Transforms",
+        "Unity.Jobs",
+        "Unity.Collections",
+        "Unity.Burst"
+    ],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}

@@ -1,0 +1,8 @@
+﻿ServerDefine,,,,,,,,,
+ClientDefine,key,,,,,,,,
+Info,id,,,,,,,,
+Type,ushort,bool,bool,string,int,int,float,float,
+Name,asset,bullet_canDestoryIron,bullet_canDestoryGrass,unit_name,unit_health,unit_damage,move_moveSpd,move_maxMoveSpd,
+Value,2001,False,False,bullet0,1,1,12,12,
+,2002,True,False,bullet1,1,2,12,12,
+,2003,True,True,bullet2,2,2,12,12,

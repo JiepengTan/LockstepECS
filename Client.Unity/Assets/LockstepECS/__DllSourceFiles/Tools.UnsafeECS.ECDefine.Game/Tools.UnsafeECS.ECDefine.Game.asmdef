@@ -1,0 +1,6 @@
+{
+    "name": "Tools.UnsafeECS.ECDefine.Game",  
+    "references": [
+        "Engine.LockstepEngine"
+    ]
+}

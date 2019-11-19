@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 980ac168cef7441b18a297aac85d123e, type: 3}
+  m_Name: UnityGameConfig
+  m_EditorClassIdentifier: 
+  pureConfig:
+    RelPath: 
+    RecorderFilePath: 
+    DumpStrPath: 
+    MaxPlayerCount: 2
+    CollisionConfig:
+      scrollPos:
+        _x: 0
+        _y: 0
+      isShow: 0
+      collisionMatrix: 000000000000000000
+      pos:
+        _x: 0
+        _y: 0
+        _z: 0
+      worldSize:
+        _val: 60000000
+      minNodeSize:
+        _val: 1000000
+      loosenessval:
+        _val: 1250000
+      ColliderDataRelFilePath: 
+      percent:
+        _val: 100000
+      count: 100
+      showTreeId: 0
+    ClientModeInfo:
+      LocalId: 0
+      UserCount: 1
+      MapId: 0
+      RoomId: 0
+      Seed: 0
+      UserInfos:
+      - _Username: TestClient
+        _UserId: 0
+        _Datas: []
+      UdpEnd:
+        Ip: 
+        Port: 0
+      TcpEnd:
+        Ip: 
+        Port: 0
+      SimulationSpeed: 0
+    PlayerInfos:
+    - Position:
+        _x: 0
+        _y: 0
+        _z: 0
+      Forward:
+        _x: 0
+        _y: 0
+        _z: 1000000
+      Scale:
+        _val: 1000000
+      Deg:
+        _val: 0
+      AssetId: 1
+      MoveData:
+        MoveSpd:
+          _val: 3000000
+        AcceleratedSpd:
+          _val: 5000000
+        CurSpd:
+          _val: 3000000
+        AngularSpd:
+          _val: 80000000
+        DeltaDeg:
+          _val: 0

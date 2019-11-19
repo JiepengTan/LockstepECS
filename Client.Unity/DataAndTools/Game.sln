@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tools.UnsafeECS.ECDefine.Game", "Src\Tools.UnsafeECS.ECDefine.Game\Tools.UnsafeECS.ECDefine.Game.csproj", "{59526EF6-61AE-468C-AF19-70C511282A90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tools.UnsafeECS.ECSOutput", "Src\Tools.UnsafeECS.ECSOutput\Tools.UnsafeECS.ECSOutput.csproj", "{8DD9548E-2B62-4BF4-8AC2-9DE2FF89E692}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server.SimpleServer", "Src\Server.SimpleServer\Server.SimpleServer.csproj", "{9700A3C6-706E-421B-AF3F-CE4DD2B1AE9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59526EF6-61AE-468C-AF19-70C511282A90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59526EF6-61AE-468C-AF19-70C511282A90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59526EF6-61AE-468C-AF19-70C511282A90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59526EF6-61AE-468C-AF19-70C511282A90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DD9548E-2B62-4BF4-8AC2-9DE2FF89E692}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DD9548E-2B62-4BF4-8AC2-9DE2FF89E692}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DD9548E-2B62-4BF4-8AC2-9DE2FF89E692}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DD9548E-2B62-4BF4-8AC2-9DE2FF89E692}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9700A3C6-706E-421B-AF3F-CE4DD2B1AE9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9700A3C6-706E-421B-AF3F-CE4DD2B1AE9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9700A3C6-706E-421B-AF3F-CE4DD2B1AE9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9700A3C6-706E-421B-AF3F-CE4DD2B1AE9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

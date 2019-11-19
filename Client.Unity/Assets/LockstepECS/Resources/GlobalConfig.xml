@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GlobalConfig>
+    <PathConfig>
+        <UnityEditorPersistentPath>../DataAndTools/Data/Client/</UnityEditorPersistentPath>
+        <UnityRuntimePersistentPath>Data/</UnityRuntimePersistentPath>
+        <PureModePersistentPath>Data/</PureModePersistentPath>
+        <PureModeStreamAssetPath>Data/</PureModeStreamAssetPath>
+    </PathConfig>
+</GlobalConfig>

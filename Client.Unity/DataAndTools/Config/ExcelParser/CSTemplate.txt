@@ -1,0 +1,16 @@
+using System;
+using System.Collections.Generic;
+using Lockstep.Serialization;
+using Lockstep.Math;
+
+namespace Lockstep.Game{
+    public partial class Table_#TableName : TableData<Table_#TableName>
+    {
+        const string tableName = "#TableName";
+        public override string Name() { return tableName; }               
+#PropertyDeclare
+
+        protected override void DoParseData(Deserializer reader){#PropertyAssign
+        }
+    }
+}

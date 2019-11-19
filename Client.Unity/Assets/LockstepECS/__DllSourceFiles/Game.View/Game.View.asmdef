@@ -1,0 +1,19 @@
+{
+    "name": "Game.View",
+    "references": [
+        "Engine.LockstepEngine",
+        "Common.Model",
+        "Common.UnsafeECS",
+        "Engine.View",
+        "Common.View",
+        "Game.Model",
+        "Unity.Entities",
+        "Unity.Entities.Hybrid",
+        "Unity.Mathematics",
+        "Unity.Transforms",
+        "Unity.Jobs",
+        "Unity.Collections",
+        "Unity.Burst"
+    ],
+    "allowUnsafeCode": true
+}

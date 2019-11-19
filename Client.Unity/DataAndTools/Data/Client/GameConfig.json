@@ -1,0 +1,2064 @@
+{
+  "MaxPlayerCount": 2,
+  "TankBornOffset": {
+    "x": {
+      "_val": 1000
+    },
+    "y": {
+      "_val": 1000
+    },
+    "_x": 1000,
+    "_y": 1000
+  },
+  "TankBornDelay": {
+    "_val": 1000
+  },
+  "DeltaTime": {
+    "_val": 16
+  },
+  "enemyPrefabs": [
+    {
+      "ai": {
+        "timer": {
+          "_val": 1000
+        },
+        "updateInterval": {
+          "_val": 0
+        },
+        "fireRate": {
+          "_val": 200
+        }
+      },
+      "tagEnemy": {},
+      "moveReq": {
+        "value": 0
+      },
+      "dropRate": {
+        "value": {
+          "_val": 0
+        }
+      },
+      "skill": {
+        "cd": {
+          "_val": 2000
+        },
+        "cdTimer": {
+          "_val": 0
+        },
+        "bulletId": 0,
+        "isNeedFire": false
+      },
+      "tagTank": {},
+      "unit": {
+        "name": "Enmy",
+        "camp": 1,
+        "detailType": 0,
+        "health": 1,
+        "damage": 1,
+        "killerLocalId": 0
+      },
+      "move": {
+        "moveSpd": {
+          "_val": 3000
+        },
+        "maxMoveSpd": {
+          "_val": 3000
+        },
+        "isChangedDir": false
+      },
+      "asset": {
+        "assetId": 10
+      },
+      "dir": {
+        "value": 0
+      },
+      "pos": {
+        "value": {
+          "x": {
+            "_val": 0
+          },
+          "y": {
+            "_val": 0
+          },
+          "_x": 0,
+          "_y": 0
+        }
+      },
+      "collider": {
+        "size": {
+          "x": {
+            "_val": 1000
+          },
+          "y": {
+            "_val": 1000
+          },
+          "_x": 1000,
+          "_y": 1000
+        },
+        "radius": {
+          "_val": 1414
+        }
+      }
+    },
+    {
+      "ai": {
+        "timer": {
+          "_val": 1000
+        },
+        "updateInterval": {
+          "_val": 0
+        },
+        "fireRate": {
+          "_val": 200
+        }
+      },
+      "tagEnemy": {},
+      "moveReq": {
+        "value": 0
+      },
+      "dropRate": {
+        "value": {
+          "_val": 0
+        }
+      },
+      "skill": {
+        "cd": {
+          "_val": 2000
+        },
+        "cdTimer": {
+          "_val": 0
+        },
+        "bulletId": 0,
+        "isNeedFire": false
+      },
+      "tagTank": {},
+      "unit": {
+        "name": "Enmy",
+        "camp": 1,
+        "detailType": 1,
+        "health": 1,
+        "damage": 1,
+        "killerLocalId": 0
+      },
+      "move": {
+        "moveSpd": {
+          "_val": 5000
+        },
+        "maxMoveSpd": {
+          "_val": 5000
+        },
+        "isChangedDir": false
+      },
+      "asset": {
+        "assetId": 11
+      },
+      "dir": {
+        "value": 0
+      },
+      "pos": {
+        "value": {
+          "x": {
+            "_val": 0
+          },
+          "y": {
+            "_val": 0
+          },
+          "_x": 0,
+          "_y": 0
+        }
+      },
+      "collider": {
+        "size": {
+          "x": {
+            "_val": 1000
+          },
+          "y": {
+            "_val": 1000
+          },
+          "_x": 1000,
+          "_y": 1000
+        },
+        "radius": {
+          "_val": 1414
+        }
+      }
+    },
+    {
+      "ai": {
+        "timer": {
+          "_val": 1000
+        },
+        "updateInterval": {
+          "_val": 0
+        },
+        "fireRate": {
+          "_val": 500
+        }
+      },
+      "tagEnemy": {},
+      "moveReq": {
+        "value": 0
+      },
+      "dropRate": {
+        "value": {
+          "_val": 0
+        }
+      },
+      "skill": {
+        "cd": {
+          "_val": 1000
+        },
+        "cdTimer": {
+          "_val": 0
+        },
+        "bulletId": 0,
+        "isNeedFire": false
+      },
+      "tagTank": {},
+      "unit": {
+        "name": "Enmy",
+        "camp": 1,
+        "detailType": 2,
+        "health": 2,
+        "damage": 1,
+        "killerLocalId": 0
+      },
+      "move": {
+        "moveSpd": {
+          "_val": 5000
+        },
+        "maxMoveSpd": {
+          "_val": 5000
+        },
+        "isChangedDir": false
+      },
+      "asset": {
+        "assetId": 12
+      },
+      "dir": {
+        "value": 0
+      },
+      "pos": {
+        "value": {
+          "x": {
+            "_val": 0
+          },
+          "y": {
+            "_val": 0
+          },
+          "_x": 0,
+          "_y": 0
+        }
+      },
+      "collider": {
+        "size": {
+          "x": {
+            "_val": 1000
+          },
+          "y": {
+            "_val": 1000
+          },
+          "_x": 1000,
+          "_y": 1000
+        },
+        "radius": {
+          "_val": 1414
+        }
+      }
+    },
+    {
+      "ai": {
+        "timer": {
+          "_val": 1000
+        },
+        "updateInterval": {
+          "_val": 0
+        },
+        "fireRate": {
+          "_val": 800
+        }
+      },
+      "tagEnemy": {},
+      "moveReq": {
+        "value": 0
+      },
+      "dropRate": {
+        "value": {
+          "_val": 0
+        }
+      },
+      "skill": {
+        "cd": {
+          "_val": 1000
+        },
+        "cdTimer": {
+          "_val": 0
+        },
+        "bulletId": 0,
+        "isNeedFire": false
+      },
+      "tagTank": {},
+      "unit": {
+        "name": "Enmy",
+        "camp": 1,
+        "detailType": 3,
+        "health": 3,
+        "damage": 1,
+        "killerLocalId": 0
+      },
+      "move": {
+        "moveSpd": {
+          "_val": 5000
+        },
+        "maxMoveSpd": {
+          "_val": 5000
+        },
+        "isChangedDir": false
+      },
+      "asset": {
+        "assetId": 13
+      },
+      "dir": {
+        "value": 0
+      },
+      "pos": {
+        "value": {
+          "x": {
+            "_val": 0
+          },
+          "y": {
+            "_val": 0
+          },
+          "_x": 0,
+          "_y": 0
+        }
+      },
+      "collider": {
+        "size": {
+          "x": {
+            "_val": 1000
+          },
+          "y": {
+            "_val": 1000
+          },
+          "_x": 1000,
+          "_y": 1000
+        },
+        "radius": {
+          "_val": 1414
+        }
+      }
+    },
+    {
+      "ai": {
+        "timer": {
+          "_val": 1000
+        },
+        "updateInterval": {
+          "_val": 0
+        },
+        "fireRate": {
+          "_val": 800
+        }
+      },
+      "tagEnemy": {},
+      "moveReq": {
+        "value": 0
+      },
+      "dropRate": {
+        "value": {
+          "_val": 1000
+        }
+      },
+      "skill": {
+        "cd": {
+          "_val": 1000
+        },
+        "cdTimer": {
+          "_val": 0
+        },
+        "bulletId": 0,
+        "isNeedFire": false
+      },
+      "tagTank": {},
+      "unit": {
+        "name": "Enmy",
+        "camp": 1,
+        "detailType": 4,
+        "health": 3,
+        "damage": 1,
+        "killerLocalId": 0
+      },
+      "move": {
+        "moveSpd": {
+          "_val": 5000
+        },
+        "maxMoveSpd": {
+          "_val": 5000
+        },
+        "isChangedDir": false
+      },
+      "asset": {
+        "assetId": 14
+      },
+      "dir": {
+        "value": 0
+      },
+      "pos": {
+        "value": {
+          "x": {
+            "_val": 0
+          },
+          "y": {
+            "_val": 0
+          },
+          "_x": 0,
+          "_y": 0
+        }
+      },
+      "collider": {
+        "size": {
+          "x": {
+            "_val": 1000
+          },
+          "y": {
+            "_val": 1000
+          },
+          "_x": 1000,
+          "_y": 1000
+        },
+        "radius": {
+          "_val": 1414
+        }
+      }
+    }
+  ],
+  "playerPrefabs": [
+    {
+      "skill": {
+        "cd": {
+          "_val": 699
+        },
+        "cdTimer": {
+          "_val": 0
+        },
+        "bulletId": 0,
+        "isNeedFire": false
+      },
+      "tagTank": {},
+      "unit": {
+        "name": "player",
+        "camp": 0,
+        "detailType": 0,
+        "health": 1,
+        "damage": 1,
+        "killerLocalId": 0
+      },
+      "move": {
+        "moveSpd": {
+          "_val": 4000
+        },
+        "maxMoveSpd": {
+          "_val": 4000
+        },
+        "isChangedDir": false
+      },
+      "asset": {
+        "assetId": 40
+      },
+      "dir": {
+        "value": 0
+      },
+      "pos": {
+        "value": {
+          "x": {
+            "_val": 0
+          },
+          "y": {
+            "_val": 0
+          },
+          "_x": 0,
+          "_y": 0
+        }
+      },
+      "collider": {
+        "size": {
+          "x": {
+            "_val": 1000
+          },
+          "y": {
+            "_val": 1000
+          },
+          "_x": 1000,
+          "_y": 1000
+        },
+        "radius": {
+          "_val": 1414
+        }
+      }
+    },
+    {
+      "skill": {
+        "cd": {
+          "_val": 500
+        },
+        "cdTimer": {
+          "_val": 0
+        },
+        "bulletId": 0,
+        "isNeedFire": false
+      },
+      "tagTank": {},
+      "unit": {
+        "name": "player",
+        "camp": 0,
+        "detailType": 1,
+        "health": 2,
+        "damage": 1,
+        "killerLocalId": 0
+      },
+      "move": {
+        "moveSpd": {
+          "_val": 6000
+        },
+        "maxMoveSpd": {
+          "_val": 6000
+        },
+        "isChangedDir": false
+      },
+      "asset": {
+        "assetId": 41
+      },
+      "dir": {
+        "value": 0
+      },
+      "pos": {
+        "value": {
+          "x": {
+            "_val": 0
+          },
+          "y": {
+            "_val": 0
+          },
+          "_x": 0,
+          "_y": 0
+        }
+      },
+      "collider": {
+        "size": {
+          "x": {
+            "_val": 1000
+          },
+          "y": {
+            "_val": 1000
+          },
+          "_x": 1000,
+          "_y": 1000
+        },
+        "radius": {
+          "_val": 1414
+        }
+      }
+    },
+    {
+      "skill": {
+        "cd": {
+          "_val": 400
+        },
+        "cdTimer": {
+          "_val": 0
+        },
+        "bulletId": 1,
+        "isNeedFire": false
+      },
+      "tagTank": {},
+      "unit": {
+        "name": "player",
+        "camp": 0,
+        "detailType": 2,
+        "health": 2,
+        "damage": 1,
+        "killerLocalId": 0
+      },
+      "move": {
+        "moveSpd": {
+          "_val": 6000
+        },
+        "maxMoveSpd": {
+          "_val": 6000
+        },
+        "isChangedDir": false
+      },
+      "asset": {
+        "assetId": 42
+      },
+      "dir": {
+        "value": 0
+      },
+      "pos": {
+        "value": {
+          "x": {
+            "_val": 0
+          },
+          "y": {
+            "_val": 0
+          },
+          "_x": 0,
+          "_y": 0
+        }
+      },
+      "collider": {
+        "size": {
+          "x": {
+            "_val": 1000
+          },
+          "y": {
+            "_val": 1000
+          },
+          "_x": 1000,
+          "_y": 1000
+        },
+        "radius": {
+          "_val": 1414
+        }
+      }
+    },
+    {
+      "skill": {
+        "cd": {
+          "_val": 400
+        },
+        "cdTimer": {
+          "_val": 0
+        },
+        "bulletId": 2,
+        "isNeedFire": false
+      },
+      "tagTank": {},
+      "unit": {
+        "name": "player",
+        "camp": 0,
+        "detailType": 2,
+        "health": 2,
+        "damage": 1,
+        "killerLocalId": 0
+      },
+      "move": {
+        "moveSpd": {
+          "_val": 6000
+        },
+        "maxMoveSpd": {
+          "_val": 6000
+        },
+        "isChangedDir": false
+      },
+      "asset": {
+        "assetId": 43
+      },
+      "dir": {
+        "value": 0
+      },
+      "pos": {
+        "value": {
+          "x": {
+            "_val": 0
+          },
+          "y": {
+            "_val": 0
+          },
+          "_x": 0,
+          "_y": 0
+        }
+      },
+      "collider": {
+        "size": {
+          "x": {
+            "_val": 1000
+          },
+          "y": {
+            "_val": 1000
+          },
+          "_x": 1000,
+          "_y": 1000
+        },
+        "radius": {
+          "_val": 1414
+        }
+      }
+    }
+  ],
+  "bulletPrefabs": [
+    {
+      "owner": {
+        "localId": 0
+      },
+      "bullet": {
+        "canDestoryIron": false,
+        "canDestoryGrass": false,
+        "ownerLocalId": 0
+      },
+      "tagBullet": {},
+      "unit": {
+        "name": "Bullet",
+        "camp": 0,
+        "detailType": 0,
+        "health": 1,
+        "damage": 1,
+        "killerLocalId": 0
+      },
+      "move": {
+        "moveSpd": {
+          "_val": 10000
+        },
+        "maxMoveSpd": {
+          "_val": 10000
+        },
+        "isChangedDir": false
+      },
+      "asset": {
+        "assetId": 50
+      },
+      "dir": {
+        "value": 0
+      },
+      "pos": {
+        "value": {
+          "x": {
+            "_val": 0
+          },
+          "y": {
+            "_val": 0
+          },
+          "_x": 0,
+          "_y": 0
+        }
+      },
+      "collider": {
+        "size": {
+          "x": {
+            "_val": 0
+          },
+          "y": {
+            "_val": 0
+          },
+          "_x": 0,
+          "_y": 0
+        },
+        "radius": {
+          "_val": 200
+        }
+      }
+    },
+    {
+      "owner": {
+        "localId": 0
+      },
+      "bullet": {
+        "canDestoryIron": true,
+        "canDestoryGrass": false,
+        "ownerLocalId": 0
+      },
+      "tagBullet": {},
+      "unit": {
+        "name": "Bullet",
+        "camp": 0,
+        "detailType": 0,
+        "health": 2,
+        "damage": 1,
+        "killerLocalId": 0
+      },
+      "move": {
+        "moveSpd": {
+          "_val": 10000
+        },
+        "maxMoveSpd": {
+          "_val": 10000
+        },
+        "isChangedDir": false
+      },
+      "asset": {
+        "assetId": 51
+      },
+      "dir": {
+        "value": 0
+      },
+      "pos": {
+        "value": {
+          "x": {
+            "_val": 0
+          },
+          "y": {
+            "_val": 0
+          },
+          "_x": 0,
+          "_y": 0
+        }
+      },
+      "collider": {
+        "size": {
+          "x": {
+            "_val": 0
+          },
+          "y": {
+            "_val": 0
+          },
+          "_x": 0,
+          "_y": 0
+        },
+        "radius": {
+          "_val": 200
+        }
+      }
+    },
+    {
+      "owner": {
+        "localId": 0
+      },
+      "bullet": {
+        "canDestoryIron": true,
+        "canDestoryGrass": true,
+        "ownerLocalId": 0
+      },
+      "tagBullet": {},
+      "unit": {
+        "name": "Bullet",
+        "camp": 0,
+        "detailType": 0,
+        "health": 4,
+        "damage": 1,
+        "killerLocalId": 0
+      },
+      "move": {
+        "moveSpd": {
+          "_val": 10000
+        },
+        "maxMoveSpd": {
+          "_val": 10000
+        },
+        "isChangedDir": false
+      },
+      "asset": {
+        "assetId": 52
+      },
+      "dir": {
+        "value": 0
+      },
+      "pos": {
+        "value": {
+          "x": {
+            "_val": 0
+          },
+          "y": {
+            "_val": 0
+          },
+          "_x": 0,
+          "_y": 0
+        }
+      },
+      "collider": {
+        "size": {
+          "x": {
+            "_val": 0
+          },
+          "y": {
+            "_val": 0
+          },
+          "_x": 0,
+          "_y": 0
+        },
+        "radius": {
+          "_val": 200
+        }
+      }
+    }
+  ],
+  "itemPrefabs": [
+    {
+      "type": {
+        "type": 0,
+        "killerActorId": 0
+      },
+      "asset": {
+        "assetId": 21
+      },
+      "dir": {
+        "value": 0
+      },
+      "pos": {
+        "value": {
+          "x": {
+            "_val": 0
+          },
+          "y": {
+            "_val": 0
+          },
+          "_x": 0,
+          "_y": 0
+        }
+      },
+      "collider": {
+        "size": {
+          "x": {
+            "_val": 1000
+          },
+          "y": {
+            "_val": 1000
+          },
+          "_x": 1000,
+          "_y": 1000
+        },
+        "radius": {
+          "_val": 1414
+        }
+      }
+    },
+    {
+      "type": {
+        "type": 2,
+        "killerActorId": 0
+      },
+      "asset": {
+        "assetId": 22
+      },
+      "dir": {
+        "value": 0
+      },
+      "pos": {
+        "value": {
+          "x": {
+            "_val": 0
+          },
+          "y": {
+            "_val": 0
+          },
+          "_x": 0,
+          "_y": 0
+        }
+      },
+      "collider": {
+        "size": {
+          "x": {
+            "_val": 1000
+          },
+          "y": {
+            "_val": 1000
+          },
+          "_x": 1000,
+          "_y": 1000
+        },
+        "radius": {
+          "_val": 1414
+        }
+      }
+    },
+    {
+      "type": {
+        "type": 1,
+        "killerActorId": 0
+      },
+      "asset": {
+        "assetId": 20
+      },
+      "dir": {
+        "value": 0
+      },
+      "pos": {
+        "value": {
+          "x": {
+            "_val": 0
+          },
+          "y": {
+            "_val": 0
+          },
+          "_x": 0,
+          "_y": 0
+        }
+      },
+      "collider": {
+        "size": {
+          "x": {
+            "_val": 1000
+          },
+          "y": {
+            "_val": 1000
+          },
+          "_x": 1000,
+          "_y": 1000
+        },
+        "radius": {
+          "_val": 1414
+        }
+      }
+    }
+  ],
+  "CampPrefabs": [
+    {
+      "unit": {
+        "name": "Camp",
+        "camp": 2,
+        "detailType": 0,
+        "health": 1,
+        "damage": 0,
+        "killerLocalId": 0
+      },
+      "tagCamp": {},
+      "asset": {
+        "assetId": 30
+      },
+      "dir": {
+        "value": 0
+      },
+      "pos": {
+        "value": {
+          "x": {
+            "_val": 0
+          },
+          "y": {
+            "_val": 0
+          },
+          "_x": 0,
+          "_y": 0
+        }
+      },
+      "collider": {
+        "size": {
+          "x": {
+            "_val": 1000
+          },
+          "y": {
+            "_val": 1000
+          },
+          "_x": 1000,
+          "_y": 1000
+        },
+        "radius": {
+          "_val": 1414
+        }
+      }
+    }
+  ],
+  "BornPrefabAssetId": 0,
+  "DiedPrefabAssetId": 0,
+  "CurTick": 0,
+  "_enemyPrefabs": [
+    {
+      "ai": {
+        "timer": {
+          "_val": 1000
+        },
+        "updateInterval": {
+          "_val": 0
+        },
+        "fireRate": {
+          "_val": 200
+        }
+      },
+      "tagEnemy": {},
+      "moveReq": {
+        "value": 0
+      },
+      "dropRate": {
+        "value": {
+          "_val": 0
+        }
+      },
+      "skill": {
+        "cd": {
+          "_val": 2000
+        },
+        "cdTimer": {
+          "_val": 0
+        },
+        "bulletId": 0,
+        "isNeedFire": false
+      },
+      "tagTank": {},
+      "unit": {
+        "name": "Enmy",
+        "camp": 1,
+        "detailType": 0,
+        "health": 1,
+        "damage": 1,
+        "killerLocalId": 0
+      },
+      "move": {
+        "moveSpd": {
+          "_val": 3000
+        },
+        "maxMoveSpd": {
+          "_val": 3000
+        },
+        "isChangedDir": false
+      },
+      "asset": {
+        "assetId": 10
+      },
+      "dir": {
+        "value": 0
+      },
+      "pos": {
+        "value": {
+          "x": {
+            "_val": 0
+          },
+          "y": {
+            "_val": 0
+          },
+          "_x": 0,
+          "_y": 0
+        }
+      },
+      "collider": {
+        "size": {
+          "x": {
+            "_val": 1000
+          },
+          "y": {
+            "_val": 1000
+          },
+          "_x": 1000,
+          "_y": 1000
+        },
+        "radius": {
+          "_val": 1414
+        }
+      }
+    },
+    {
+      "ai": {
+        "timer": {
+          "_val": 1000
+        },
+        "updateInterval": {
+          "_val": 0
+        },
+        "fireRate": {
+          "_val": 200
+        }
+      },
+      "tagEnemy": {},
+      "moveReq": {
+        "value": 0
+      },
+      "dropRate": {
+        "value": {
+          "_val": 0
+        }
+      },
+      "skill": {
+        "cd": {
+          "_val": 2000
+        },
+        "cdTimer": {
+          "_val": 0
+        },
+        "bulletId": 0,
+        "isNeedFire": false
+      },
+      "tagTank": {},
+      "unit": {
+        "name": "Enmy",
+        "camp": 1,
+        "detailType": 1,
+        "health": 1,
+        "damage": 1,
+        "killerLocalId": 0
+      },
+      "move": {
+        "moveSpd": {
+          "_val": 5000
+        },
+        "maxMoveSpd": {
+          "_val": 5000
+        },
+        "isChangedDir": false
+      },
+      "asset": {
+        "assetId": 11
+      },
+      "dir": {
+        "value": 0
+      },
+      "pos": {
+        "value": {
+          "x": {
+            "_val": 0
+          },
+          "y": {
+            "_val": 0
+          },
+          "_x": 0,
+          "_y": 0
+        }
+      },
+      "collider": {
+        "size": {
+          "x": {
+            "_val": 1000
+          },
+          "y": {
+            "_val": 1000
+          },
+          "_x": 1000,
+          "_y": 1000
+        },
+        "radius": {
+          "_val": 1414
+        }
+      }
+    },
+    {
+      "ai": {
+        "timer": {
+          "_val": 1000
+        },
+        "updateInterval": {
+          "_val": 0
+        },
+        "fireRate": {
+          "_val": 500
+        }
+      },
+      "tagEnemy": {},
+      "moveReq": {
+        "value": 0
+      },
+      "dropRate": {
+        "value": {
+          "_val": 0
+        }
+      },
+      "skill": {
+        "cd": {
+          "_val": 1000
+        },
+        "cdTimer": {
+          "_val": 0
+        },
+        "bulletId": 0,
+        "isNeedFire": false
+      },
+      "tagTank": {},
+      "unit": {
+        "name": "Enmy",
+        "camp": 1,
+        "detailType": 2,
+        "health": 2,
+        "damage": 1,
+        "killerLocalId": 0
+      },
+      "move": {
+        "moveSpd": {
+          "_val": 5000
+        },
+        "maxMoveSpd": {
+          "_val": 5000
+        },
+        "isChangedDir": false
+      },
+      "asset": {
+        "assetId": 12
+      },
+      "dir": {
+        "value": 0
+      },
+      "pos": {
+        "value": {
+          "x": {
+            "_val": 0
+          },
+          "y": {
+            "_val": 0
+          },
+          "_x": 0,
+          "_y": 0
+        }
+      },
+      "collider": {
+        "size": {
+          "x": {
+            "_val": 1000
+          },
+          "y": {
+            "_val": 1000
+          },
+          "_x": 1000,
+          "_y": 1000
+        },
+        "radius": {
+          "_val": 1414
+        }
+      }
+    },
+    {
+      "ai": {
+        "timer": {
+          "_val": 1000
+        },
+        "updateInterval": {
+          "_val": 0
+        },
+        "fireRate": {
+          "_val": 800
+        }
+      },
+      "tagEnemy": {},
+      "moveReq": {
+        "value": 0
+      },
+      "dropRate": {
+        "value": {
+          "_val": 0
+        }
+      },
+      "skill": {
+        "cd": {
+          "_val": 1000
+        },
+        "cdTimer": {
+          "_val": 0
+        },
+        "bulletId": 0,
+        "isNeedFire": false
+      },
+      "tagTank": {},
+      "unit": {
+        "name": "Enmy",
+        "camp": 1,
+        "detailType": 3,
+        "health": 3,
+        "damage": 1,
+        "killerLocalId": 0
+      },
+      "move": {
+        "moveSpd": {
+          "_val": 5000
+        },
+        "maxMoveSpd": {
+          "_val": 5000
+        },
+        "isChangedDir": false
+      },
+      "asset": {
+        "assetId": 13
+      },
+      "dir": {
+        "value": 0
+      },
+      "pos": {
+        "value": {
+          "x": {
+            "_val": 0
+          },
+          "y": {
+            "_val": 0
+          },
+          "_x": 0,
+          "_y": 0
+        }
+      },
+      "collider": {
+        "size": {
+          "x": {
+            "_val": 1000
+          },
+          "y": {
+            "_val": 1000
+          },
+          "_x": 1000,
+          "_y": 1000
+        },
+        "radius": {
+          "_val": 1414
+        }
+      }
+    },
+    {
+      "ai": {
+        "timer": {
+          "_val": 1000
+        },
+        "updateInterval": {
+          "_val": 0
+        },
+        "fireRate": {
+          "_val": 800
+        }
+      },
+      "tagEnemy": {},
+      "moveReq": {
+        "value": 0
+      },
+      "dropRate": {
+        "value": {
+          "_val": 1000
+        }
+      },
+      "skill": {
+        "cd": {
+          "_val": 1000
+        },
+        "cdTimer": {
+          "_val": 0
+        },
+        "bulletId": 0,
+        "isNeedFire": false
+      },
+      "tagTank": {},
+      "unit": {
+        "name": "Enmy",
+        "camp": 1,
+        "detailType": 4,
+        "health": 3,
+        "damage": 1,
+        "killerLocalId": 0
+      },
+      "move": {
+        "moveSpd": {
+          "_val": 5000
+        },
+        "maxMoveSpd": {
+          "_val": 5000
+        },
+        "isChangedDir": false
+      },
+      "asset": {
+        "assetId": 14
+      },
+      "dir": {
+        "value": 0
+      },
+      "pos": {
+        "value": {
+          "x": {
+            "_val": 0
+          },
+          "y": {
+            "_val": 0
+          },
+          "_x": 0,
+          "_y": 0
+        }
+      },
+      "collider": {
+        "size": {
+          "x": {
+            "_val": 1000
+          },
+          "y": {
+            "_val": 1000
+          },
+          "_x": 1000,
+          "_y": 1000
+        },
+        "radius": {
+          "_val": 1414
+        }
+      }
+    }
+  ],
+  "_playerPrefabs": [
+    {
+      "skill": {
+        "cd": {
+          "_val": 699
+        },
+        "cdTimer": {
+          "_val": 0
+        },
+        "bulletId": 0,
+        "isNeedFire": false
+      },
+      "tagTank": {},
+      "unit": {
+        "name": "player",
+        "camp": 0,
+        "detailType": 0,
+        "health": 1,
+        "damage": 1,
+        "killerLocalId": 0
+      },
+      "move": {
+        "moveSpd": {
+          "_val": 4000
+        },
+        "maxMoveSpd": {
+          "_val": 4000
+        },
+        "isChangedDir": false
+      },
+      "asset": {
+        "assetId": 40
+      },
+      "dir": {
+        "value": 0
+      },
+      "pos": {
+        "value": {
+          "x": {
+            "_val": 0
+          },
+          "y": {
+            "_val": 0
+          },
+          "_x": 0,
+          "_y": 0
+        }
+      },
+      "collider": {
+        "size": {
+          "x": {
+            "_val": 1000
+          },
+          "y": {
+            "_val": 1000
+          },
+          "_x": 1000,
+          "_y": 1000
+        },
+        "radius": {
+          "_val": 1414
+        }
+      }
+    },
+    {
+      "skill": {
+        "cd": {
+          "_val": 500
+        },
+        "cdTimer": {
+          "_val": 0
+        },
+        "bulletId": 0,
+        "isNeedFire": false
+      },
+      "tagTank": {},
+      "unit": {
+        "name": "player",
+        "camp": 0,
+        "detailType": 1,
+        "health": 2,
+        "damage": 1,
+        "killerLocalId": 0
+      },
+      "move": {
+        "moveSpd": {
+          "_val": 6000
+        },
+        "maxMoveSpd": {
+          "_val": 6000
+        },
+        "isChangedDir": false
+      },
+      "asset": {
+        "assetId": 41
+      },
+      "dir": {
+        "value": 0
+      },
+      "pos": {
+        "value": {
+          "x": {
+            "_val": 0
+          },
+          "y": {
+            "_val": 0
+          },
+          "_x": 0,
+          "_y": 0
+        }
+      },
+      "collider": {
+        "size": {
+          "x": {
+            "_val": 1000
+          },
+          "y": {
+            "_val": 1000
+          },
+          "_x": 1000,
+          "_y": 1000
+        },
+        "radius": {
+          "_val": 1414
+        }
+      }
+    },
+    {
+      "skill": {
+        "cd": {
+          "_val": 400
+        },
+        "cdTimer": {
+          "_val": 0
+        },
+        "bulletId": 1,
+        "isNeedFire": false
+      },
+      "tagTank": {},
+      "unit": {
+        "name": "player",
+        "camp": 0,
+        "detailType": 2,
+        "health": 2,
+        "damage": 1,
+        "killerLocalId": 0
+      },
+      "move": {
+        "moveSpd": {
+          "_val": 6000
+        },
+        "maxMoveSpd": {
+          "_val": 6000
+        },
+        "isChangedDir": false
+      },
+      "asset": {
+        "assetId": 42
+      },
+      "dir": {
+        "value": 0
+      },
+      "pos": {
+        "value": {
+          "x": {
+            "_val": 0
+          },
+          "y": {
+            "_val": 0
+          },
+          "_x": 0,
+          "_y": 0
+        }
+      },
+      "collider": {
+        "size": {
+          "x": {
+            "_val": 1000
+          },
+          "y": {
+            "_val": 1000
+          },
+          "_x": 1000,
+          "_y": 1000
+        },
+        "radius": {
+          "_val": 1414
+        }
+      }
+    },
+    {
+      "skill": {
+        "cd": {
+          "_val": 400
+        },
+        "cdTimer": {
+          "_val": 0
+        },
+        "bulletId": 2,
+        "isNeedFire": false
+      },
+      "tagTank": {},
+      "unit": {
+        "name": "player",
+        "camp": 0,
+        "detailType": 2,
+        "health": 2,
+        "damage": 1,
+        "killerLocalId": 0
+      },
+      "move": {
+        "moveSpd": {
+          "_val": 6000
+        },
+        "maxMoveSpd": {
+          "_val": 6000
+        },
+        "isChangedDir": false
+      },
+      "asset": {
+        "assetId": 43
+      },
+      "dir": {
+        "value": 0
+      },
+      "pos": {
+        "value": {
+          "x": {
+            "_val": 0
+          },
+          "y": {
+            "_val": 0
+          },
+          "_x": 0,
+          "_y": 0
+        }
+      },
+      "collider": {
+        "size": {
+          "x": {
+            "_val": 1000
+          },
+          "y": {
+            "_val": 1000
+          },
+          "_x": 1000,
+          "_y": 1000
+        },
+        "radius": {
+          "_val": 1414
+        }
+      }
+    }
+  ],
+  "_bulletPrefabs": [
+    {
+      "owner": {
+        "localId": 0
+      },
+      "bullet": {
+        "canDestoryIron": false,
+        "canDestoryGrass": false,
+        "ownerLocalId": 0
+      },
+      "tagBullet": {},
+      "unit": {
+        "name": "Bullet",
+        "camp": 0,
+        "detailType": 0,
+        "health": 1,
+        "damage": 1,
+        "killerLocalId": 0
+      },
+      "move": {
+        "moveSpd": {
+          "_val": 10000
+        },
+        "maxMoveSpd": {
+          "_val": 10000
+        },
+        "isChangedDir": false
+      },
+      "asset": {
+        "assetId": 50
+      },
+      "dir": {
+        "value": 0
+      },
+      "pos": {
+        "value": {
+          "x": {
+            "_val": 0
+          },
+          "y": {
+            "_val": 0
+          },
+          "_x": 0,
+          "_y": 0
+        }
+      },
+      "collider": {
+        "size": {
+          "x": {
+            "_val": 0
+          },
+          "y": {
+            "_val": 0
+          },
+          "_x": 0,
+          "_y": 0
+        },
+        "radius": {
+          "_val": 200
+        }
+      }
+    },
+    {
+      "owner": {
+        "localId": 0
+      },
+      "bullet": {
+        "canDestoryIron": true,
+        "canDestoryGrass": false,
+        "ownerLocalId": 0
+      },
+      "tagBullet": {},
+      "unit": {
+        "name": "Bullet",
+        "camp": 0,
+        "detailType": 0,
+        "health": 2,
+        "damage": 1,
+        "killerLocalId": 0
+      },
+      "move": {
+        "moveSpd": {
+          "_val": 10000
+        },
+        "maxMoveSpd": {
+          "_val": 10000
+        },
+        "isChangedDir": false
+      },
+      "asset": {
+        "assetId": 51
+      },
+      "dir": {
+        "value": 0
+      },
+      "pos": {
+        "value": {
+          "x": {
+            "_val": 0
+          },
+          "y": {
+            "_val": 0
+          },
+          "_x": 0,
+          "_y": 0
+        }
+      },
+      "collider": {
+        "size": {
+          "x": {
+            "_val": 0
+          },
+          "y": {
+            "_val": 0
+          },
+          "_x": 0,
+          "_y": 0
+        },
+        "radius": {
+          "_val": 200
+        }
+      }
+    },
+    {
+      "owner": {
+        "localId": 0
+      },
+      "bullet": {
+        "canDestoryIron": true,
+        "canDestoryGrass": true,
+        "ownerLocalId": 0
+      },
+      "tagBullet": {},
+      "unit": {
+        "name": "Bullet",
+        "camp": 0,
+        "detailType": 0,
+        "health": 4,
+        "damage": 1,
+        "killerLocalId": 0
+      },
+      "move": {
+        "moveSpd": {
+          "_val": 10000
+        },
+        "maxMoveSpd": {
+          "_val": 10000
+        },
+        "isChangedDir": false
+      },
+      "asset": {
+        "assetId": 52
+      },
+      "dir": {
+        "value": 0
+      },
+      "pos": {
+        "value": {
+          "x": {
+            "_val": 0
+          },
+          "y": {
+            "_val": 0
+          },
+          "_x": 0,
+          "_y": 0
+        }
+      },
+      "collider": {
+        "size": {
+          "x": {
+            "_val": 0
+          },
+          "y": {
+            "_val": 0
+          },
+          "_x": 0,
+          "_y": 0
+        },
+        "radius": {
+          "_val": 200
+        }
+      }
+    }
+  ],
+  "_itemPrefabs": [
+    {
+      "type": {
+        "type": 0,
+        "killerActorId": 0
+      },
+      "asset": {
+        "assetId": 21
+      },
+      "dir": {
+        "value": 0
+      },
+      "pos": {
+        "value": {
+          "x": {
+            "_val": 0
+          },
+          "y": {
+            "_val": 0
+          },
+          "_x": 0,
+          "_y": 0
+        }
+      },
+      "collider": {
+        "size": {
+          "x": {
+            "_val": 1000
+          },
+          "y": {
+            "_val": 1000
+          },
+          "_x": 1000,
+          "_y": 1000
+        },
+        "radius": {
+          "_val": 1414
+        }
+      }
+    },
+    {
+      "type": {
+        "type": 2,
+        "killerActorId": 0
+      },
+      "asset": {
+        "assetId": 22
+      },
+      "dir": {
+        "value": 0
+      },
+      "pos": {
+        "value": {
+          "x": {
+            "_val": 0
+          },
+          "y": {
+            "_val": 0
+          },
+          "_x": 0,
+          "_y": 0
+        }
+      },
+      "collider": {
+        "size": {
+          "x": {
+            "_val": 1000
+          },
+          "y": {
+            "_val": 1000
+          },
+          "_x": 1000,
+          "_y": 1000
+        },
+        "radius": {
+          "_val": 1414
+        }
+      }
+    },
+    {
+      "type": {
+        "type": 1,
+        "killerActorId": 0
+      },
+      "asset": {
+        "assetId": 20
+      },
+      "dir": {
+        "value": 0
+      },
+      "pos": {
+        "value": {
+          "x": {
+            "_val": 0
+          },
+          "y": {
+            "_val": 0
+          },
+          "_x": 0,
+          "_y": 0
+        }
+      },
+      "collider": {
+        "size": {
+          "x": {
+            "_val": 1000
+          },
+          "y": {
+            "_val": 1000
+          },
+          "_x": 1000,
+          "_y": 1000
+        },
+        "radius": {
+          "_val": 1414
+        }
+      }
+    }
+  ],
+  "_CampPrefabs": [
+    {
+      "unit": {
+        "name": "Camp",
+        "camp": 2,
+        "detailType": 0,
+        "health": 1,
+        "damage": 0,
+        "killerLocalId": 0
+      },
+      "tagCamp": {},
+      "asset": {
+        "assetId": 30
+      },
+      "dir": {
+        "value": 0
+      },
+      "pos": {
+        "value": {
+          "x": {
+            "_val": 0
+          },
+          "y": {
+            "_val": 0
+          },
+          "_x": 0,
+          "_y": 0
+        }
+      },
+      "collider": {
+        "size": {
+          "x": {
+            "_val": 1000
+          },
+          "y": {
+            "_val": 1000
+          },
+          "_x": 1000,
+          "_y": 1000
+        },
+        "radius": {
+          "_val": 1414
+        }
+      }
+    }
+  ]
+}

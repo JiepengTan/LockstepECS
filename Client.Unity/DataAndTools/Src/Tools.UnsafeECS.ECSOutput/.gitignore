@@ -1,0 +1,10 @@
+Libs/
+Games/
+#暂时忽略这个项目
+BombMan/
+# Build and Object Folders  
+bin/  
+obj/  
+# ide
+.idea/
+.vs/

@@ -1,0 +1,20 @@
+[
+  {
+    "__commment": "Copy file from pure csproj to unity dir",
+    "srcDir": "../Src/",
+    "dstDir": "../Src/Client.Unity/Assets/__DllSourceFiles/",
+    "srcProjectDirs": [
+      "Common.Editor",
+      "Common.View",
+      "Common.Model",
+      "Engine.View",
+      "Engine.Editor",
+      "Engine.LockstepEngine",
+      "Game.View",
+      "Game.View",
+      "Game.Model",
+      "Tools.UnsafeECS.ECdefine.Game"
+    ],
+    "sourceFileDir": "/Src"
+  }
+]

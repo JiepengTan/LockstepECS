@@ -1,0 +1,65 @@
+/*
+    public enum EServerType {
+        Client=0,
+        DaemonServer = 1,
+        LoginServer = 2,
+        LobbyServer = 3,
+        GameServer = 4,
+        DatabaseServer = 5,
+        WorldServer = 6,
+        
+        EnumCount,
+    }
+*/
+{
+  "isDebugMode": true,//all server run in the same process
+  "YMIp": "127.0.0.1",
+  "YMPort": 10103,
+  "servers": [
+    {
+      "isMaster": true,
+      "type": 1,
+      "serverPort": 10101,
+      "masterPort": 10102,
+      "masterIp": "127.0.0.1",
+      "tcpPort": 7150,
+      "udpPort": 7151
+    },
+    {
+      "isMaster": true,
+      "type": 2,
+      "serverPort": 10201,
+      "masterPort": 10202,
+      "masterIp": "127.0.0.1",
+      "tcpPort": 7250,
+      "udpPort": 7251
+    },
+    {
+      "isMaster": true,
+      "masterIp": "127.0.0.1",
+      "type": 3,
+      "serverPort": 10301,
+      "masterPort": 10302,
+      "tcpPort": 7350,
+      "udpPort": 7351
+    },
+    {
+      "isMaster": true,
+      "masterIp": "127.0.0.1",
+      "type": 4,
+      "serverIpPort": 10401,
+      "masterPort": 10402,
+      "tcpPort": 7450,
+      "udpPort": 7451
+    },
+    {
+      "isMaster": true,
+      "masterIp": "127.0.0.1",
+      "type": 5,
+      "serverPort": 10501,
+      "masterPort": 10502,
+      "tcpPort": 7550,
+      "udpPort": 7551
+    }
+  ]
+}

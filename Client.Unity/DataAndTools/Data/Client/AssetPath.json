@@ -1,0 +1,20 @@
+{
+  "10": "Prefabs/Tanks/Tank0",
+  "11": "Prefabs/Tanks/Tank1",
+  "12": "Prefabs/Tanks/Tank2",
+  "13": "Prefabs/Tanks/Tank3",
+  "14": "Prefabs/Tanks/Tank4",
+  "20": "Prefabs/Items/ItemAddLife",
+  "21": "Prefabs/Items/ItemBoom",
+  "22": "Prefabs/Items/ItemUpgrade",
+  "30": "Prefabs/Camp/Camp",
+  "40": "Prefabs/Player/Player0",
+  "41": "Prefabs/Player/Player1",
+  "42": "Prefabs/Player/Player2",
+  "43": "Prefabs/Player/Player3",
+  "50": "Prefabs/Bullet/Bullet0",
+  "51": "Prefabs/Bullet/Bullet1",
+  "52": "Prefabs/Bullet/Bullet2",
+  "60": "Prefabs/Effect/EffectBorn",
+  "61": "Prefabs/Effect/EffectExplosion"
+}

@@ -1,0 +1,11 @@
+[
+  {
+    "__commment": "Copy file from pure csproj to unity dir",
+    "srcDir": "../../../Client.Unity/Assets/LockstepECS/__DllSourceFiles/",
+    "dstDir": "../Src/",
+    "srcProjectDirs": [
+      "Tools.UnsafeECS.ECdefine.Game"
+    ],
+    "sourceFileDir": "/Src"
+  }
+]
