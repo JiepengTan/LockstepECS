@@ -11,6 +11,10 @@ LockstepECS  一个基于c# 指针和结构体 的帧同步框架，使用于超
 
 - github 上的是免费版
 
+
+## **Wiki**
+ [**中文使用文档**][11]
+ 
 ## **Reference**
 
 - [帧同步基础库 https://github.com/JiepengTan/LockstepEngine][1]
@@ -43,9 +47,6 @@ eg:我个人GitHub 地址为 https://github.com/JiepengTan
 - 寻路库
 - 序列化库向前兼容
 
-
-## **Wiki**
- [**中文使用文档**][11]
 
 
 ## **1.安装运行**
