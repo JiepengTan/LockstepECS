@@ -23,17 +23,6 @@ LockstepECS  一个基于c# 指针和结构体 的帧同步框架，使用于超
 - [demo: 帧同步版联机版 模拟鲨鱼围捕 2000 条小鱼 https://github.com/JiepengTan/LcokstepECS_Demo_Boid][3]
 - [帧同步教程 https://github.com/JiepengTan/Lockstep-Tutorial][4]
 
-- **Unity DOTS 技术交流 微信群**
-
-<p align="center"> <img src="https://github.com/JiepengTan/JiepengTan.github.io/blob/master/assets/img/blog/MyVX.png?raw=true" width="256"/></p>
-
-```
-为了过滤伸手党，不浪费群里人时间，有ECS使用经验后你再加（能独立用ECS写个小游戏）
-添加微信请备注 LECS: + 你的github网址
-eg:我个人GitHub 地址为 https://github.com/JiepengTan
-备注应该填写为：LECS:JiepengTan
-
-```
 
 ## **视频链接**
 - [环境搭建（Win & Mac）][9]
